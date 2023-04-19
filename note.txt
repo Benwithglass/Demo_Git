@@ -33,3 +33,6 @@ B1:
 (git checkout -b + tên mong muốn): tạo nhánh mới và nhanh chóng chuyển sang nhánh đó
 (git branch): xác định vị trí nhánh mình đang đứng (nhánh màu xanh)
 
+B2:
+sau khi tạo nhánh xong, 
+
