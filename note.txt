@@ -21,5 +21,15 @@ B3:
 (git push -u origin + tên nhánh): lần đầu sẽ dùng lệnh này để đẩy code từ local repo lên remote repo để lưu trữ.
 (git push origin): những lần sau chỉ cần dùng lệnh này.
 
+Khi đi làm tham gia một dự án mới, cần lấy source code từ trên remotre repo về thì chúng ta sẽ sử dụng lệnh git clone url
 
+Khi đi làm ta muốn tét qua một số chức năng mới, nhưng sợ ảnh hưởng tới các đoạn code cũ đang có, ta sẽ commit lại đoạn code để chỉnh sửa 
+nếu muốn quay lại vị trí commit đó khi lỗi ta có thể dùng lệnh git stash 
+
+Các bước để tạo nhánh 
+B1: 
+(git branch + tên mong muốn): tạo nhánh mới 
+(git checkout + tên nhánh đã đặt): để chuyển sang nhánh mới
+(git checkout -b + tên mong muốn): tạo nhánh mới và nhanh chóng chuyển sang nhánh đó
+(git branch): xác định vị trí nhánh mình đang đứng (nhánh màu xanh)
 
